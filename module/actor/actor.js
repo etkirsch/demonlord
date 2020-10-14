@@ -109,7 +109,7 @@ export class DemonlordActor extends Actor {
             data.characteristics.defense = parseInt(data.characteristics.defense) + parseInt(defenseBonus) + parseInt(agilitypoint);
 
         data.characteristics.defense = parseInt(data.characteristics.defense) + parseInt(characterbuffs.defensebonus);
-        data.characteristics.power = parseInt(data.characteristics.power) + parseInt(characterbuffs.powerbonus);
+        data.characteristics.power = parseInt(characterbuffs.powerbonus);
 
         characterbuffs.speedbonus += speedPenalty;
 
