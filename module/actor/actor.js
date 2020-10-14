@@ -154,7 +154,6 @@ export class DemonlordActor extends Actor {
                 "data.characteristics.speedbonus": parseInt(characterbuffs.speedbonus) - (parseInt(child.data.bonuses.speed) ? parseInt(child.data.bonuses.speed) : 0),
                 "data.characteristics.defense": parseInt(this.data.data.characteristics.defense) - (parseInt(child.data.bonuses.defense) ? parseInt(child.data.bonuses.defense) : 0),
                 "data.characteristics.health.max": parseInt(this.data.data.characteristics.health.max) - (parseInt(child.data.bonuses.health) ? parseInt(child.data.bonuses.health) : 0),
-                "data.characteristics.power": parseInt(this.data.data.characteristics.power) - (parseInt(child.data.bonuses.power) ? parseInt(child.data.bonuses.power) : 0),
                 "data.characteristics.speed.value": parseInt(this.data.data.characteristics.speed.value) - (parseInt(child.data.bonuses.speed) ? parseInt(child.data.bonuses.speed) : 0)
             });
         }
